@@ -2,11 +2,14 @@
 
 .Net Core 5, EF Core, Angular 11 material, PostgreSQL
 
-EF Migrations
+
+EF Migrations:
 
 dotnet ef migrations add Initial -c DataContext --project ..\BookClub.Resource\
 
 dotnet ef database update -c DataContext --project ..\BookClub.Resource\
+
+
 
 Требуется реализовать приложение “Книжный клуб”, в котором пользователи могут составлять список прочитанных книг.
 Функционал:
