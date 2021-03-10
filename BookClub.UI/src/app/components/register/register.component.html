@@ -1,0 +1,26 @@
+<div class="register">
+    <mat-card>
+        <mat-form-field>
+            <mat-label>Login</mat-label>
+            <input type="name" matInput [formControl]="NameFormControl" #name>
+            <mat-error *ngIf="NameFormControl.hasError('required')">
+                Login is <strong>required</strong>
+            </mat-error>
+        </mat-form-field><br>
+        <mat-form-field>
+            <mat-label>Password</mat-label>
+            <input type="password" matInput [formControl]="PasswordFormControl" #password>
+            <mat-error *ngIf="PasswordFormControl.hasError('required')">
+                Password is <strong>required</strong>
+            </mat-error>
+        </mat-form-field><br>
+        <mat-form-field>
+            <mat-label>Confirm Password</mat-label>
+            <input type="password" matInput [formControl]="ConfirmFormControl" #confirm>
+            <mat-error *ngIf="ConfirmFormControl.hasError('required')">
+                Please confirm your password
+            </mat-error>
+        </mat-form-field><br>
+        <button mat-flat-button color="primary" class="Log" (click)='register(name.value, password.value, confirm.value)'>Submit</button>
+    </mat-card>
+</div>

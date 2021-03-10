@@ -1,0 +1,13 @@
+<div>
+  <div class="topnav">
+    <a [routerLink]="['']" routerLinkActive='active' [routerLinkActiveOptions]="{ exact: true }">BookClub</a>
+    <a [routerLink]="['/booklist']" routerLinkActive='active' [routerLinkActiveOptions]="{ exact: true }" *ngIf ='isLoggedIn'>Your list of books</a>
+    <a [routerLink]="['/aviablebooks']" routerLinkActive='active' [routerLinkActiveOptions]="{ exact: true }" *ngIf ='isLoggedIn'>Aviable books</a>
+    <div class="auth">
+      <button mat-flat-button color="primary" [routerLink]="['/login']" *ngIf ='!isLoggedIn'>Login</button>
+      <button mat-flat-button color="primary" [routerLink]="['/register']" *ngIf ='!isLoggedIn'>Register</button>
+      <button mat-flat-button color="primary" (click)='logout()' *ngIf ='isLoggedIn'>Logout</button>
+    </div>
+  </div>
+  <router-outlet></router-outlet>
+</div>

@@ -1,0 +1,14 @@
+<mat-card>
+    <mat-form-field class="login">
+      <mat-label>Login</mat-label>
+      <input type="name" matInput placeholder="admin" #name>
+    </mat-form-field><br>
+    <mat-form-field class="login">
+      <mat-label>Password</mat-label>
+      <input type="password" matInput placeholder="admin" #password>
+    </mat-form-field>
+      <table><tr>
+        <td><button mat-flat-button color="primary" class="Login" (click)='login(name.value, password.value)'>Login</button></td>
+        <td><button mat-flat-button color="primary" class="Login" [routerLink]="['/register']">Register</button></td>
+      </tr></table>
+</mat-card>

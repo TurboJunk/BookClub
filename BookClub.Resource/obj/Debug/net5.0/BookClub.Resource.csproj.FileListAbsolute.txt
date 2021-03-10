@@ -1,0 +1,12 @@
+C:\Users\Дом\source\repos\GrowUp\BookClub.Resource\bin\Debug\net5.0\BookClub.Resource.deps.json
+C:\Users\Дом\source\repos\GrowUp\BookClub.Resource\bin\Debug\net5.0\BookClub.Resource.dll
+C:\Users\Дом\source\repos\GrowUp\BookClub.Resource\bin\Debug\net5.0\ref\BookClub.Resource.dll
+C:\Users\Дом\source\repos\GrowUp\BookClub.Resource\bin\Debug\net5.0\BookClub.Resource.pdb
+C:\Users\Дом\source\repos\GrowUp\BookClub.Resource\obj\Debug\net5.0\BookClub.Resource.csprojAssemblyReference.cache
+C:\Users\Дом\source\repos\GrowUp\BookClub.Resource\obj\Debug\net5.0\BookClub.Resource.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Дом\source\repos\GrowUp\BookClub.Resource\obj\Debug\net5.0\BookClub.Resource.AssemblyInfoInputs.cache
+C:\Users\Дом\source\repos\GrowUp\BookClub.Resource\obj\Debug\net5.0\BookClub.Resource.AssemblyInfo.cs
+C:\Users\Дом\source\repos\GrowUp\BookClub.Resource\obj\Debug\net5.0\BookClub.Resource.csproj.CoreCompileInputs.cache
+C:\Users\Дом\source\repos\GrowUp\BookClub.Resource\obj\Debug\net5.0\BookClub.Resource.dll
+C:\Users\Дом\source\repos\GrowUp\BookClub.Resource\obj\Debug\net5.0\ref\BookClub.Resource.dll
+C:\Users\Дом\source\repos\GrowUp\BookClub.Resource\obj\Debug\net5.0\BookClub.Resource.pdb

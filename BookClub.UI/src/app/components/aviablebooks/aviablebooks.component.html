@@ -1,0 +1,23 @@
+<mat-card>
+    <span>Books to add: <strong>{{listLimit}}</strong></span>
+    <mat-table [dataSource]="books">
+
+        <ng-container matColumnDef="name">
+            <mat-header-cell *matHeaderCellDef>Name</mat-header-cell>
+            <mat-cell *matCellDef="let book"> {{book.name}}</mat-cell>
+        </ng-container>
+
+        <ng-container matColumnDef="author">
+            <mat-header-cell *matHeaderCellDef>Author</mat-header-cell>
+            <mat-cell *matCellDef="let book"> {{book.author}}</mat-cell>
+        </ng-container>
+
+        <ng-container matColumnDef="id">
+            <mat-header-cell *matHeaderCellDef>Add books to list</mat-header-cell>
+            <mat-cell *matCellDef="let book"><button mat-raised-button color="primary" (click)='add(book)'>Add</button></mat-cell>
+        </ng-container>
+
+        <mat-header-row *matHeaderRowDef="columns"></mat-header-row>
+        <mat-row *matRowDef="let row; columns: columns;"></mat-row>
+    </mat-table>
+</mat-card>

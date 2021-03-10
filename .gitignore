@@ -1,0 +1,4 @@
+BookClub.Resource/Migrations/*
+BookClub.Web/.vs/*
+BookClub.Web/.vs/*
+*.v2
